@@ -18,11 +18,10 @@ def main():
         st.markdown("**About button**: Displays information about RYFAI")
         st.markdown("**Donate button**: Click this to donate to me! Simply enter your info that is asked for, and donate as much as you like to the RYFAI project.")
     if st.button("How to contribute"):
-        st.markdown("You may fork the RYFAI repo and make contributions there, or you can just give us suggestions that we can take into consideration.\n"
-                    "Critisism is accepted, as long as it is constructive.")
+        st.markdown("Currently not open source but if you are interested in being a part of the developer team, email: ryfai@proton.me")
     st.write("__________________________________________________________________")
     if st.button("Download RYFAI for yourself!"):
-        st.markdown("FOR DEVELOPERS: https://github.com/PetertheRedCedar/ryfai")
+        st.markdown("Currently not open source, but email ryfai@proton.me if you are interested in being a part of the developer team")
         st.markdown("FOR EVERYONE ELSE: https://github.com/PetertheRedCedar/ryfai/releases")
     st.write("_____________________________________________________________")
     if st.button("Why RYFAI?"):
