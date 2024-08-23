@@ -19,7 +19,6 @@ def main():
         st.markdown("**Donate button**: Click this to donate to me! Simply enter your info that is asked for, and donate as much as you like to the RYFAI project.")
     st.write("__________________________________________________________________")
     if st.button("Download RYFAI for yourself!"):
-        st.markdown("Currently not open source, but email ryfai@proton.me if you are interested in being a part of the developer team")
         st.markdown("FOR EVERYONE ELSE: https://github.com/PetertheRedCedar/ryfai/releases")
     st.write("_____________________________________________________________")
     if st.button("Why RYFAI?"):
