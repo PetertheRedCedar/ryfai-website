@@ -19,7 +19,7 @@ def main():
         st.markdown("**Donate button**: Click this to donate to me! Simply enter your info that is asked for, and donate as much as you like to the RYFAI project.")
     st.write("__________________________________________________________________")
     if st.button("Download RYFAI for yourself!"):
-        st.markdown("FOR EVERYONE ELSE: https://github.com/PetertheRedCedar/ryfai/releases")
+        st.markdown("https://github.com/PetertheRedCedar/ryfai/releases")
     st.write("_____________________________________________________________")
     if st.button("Why RYFAI?"):
         st.markdown("There are major problems in the tech world regarding a user's privacy, especially in AI. Giant corporations love to gather your data\n"
@@ -31,6 +31,10 @@ def main():
                     "mind, not the profit. You can ensure RYFAI does not take your data because you can use RYFAI without being connected to the internet (and you\n"
                     "can also look at the code yourself)! RYFAI not only leverages the power of AI, but it also comes with the PEOPLE in mind, over the profit.\n"
                     "With those two things combined, you have an unbeatable product. Now THATS remarkable!")
+
+    st.write("**Donations help me keep these projects alive. If you wish to donate, I accept Monero and Bitcoin :)**")
+    st.write("bitcoin: bc1qjnrvt3d8ms69zusvh244v5h2hya9yhqzsemtc2")
+    st.write("monero: 494oHEbuekCRA8hcWyo81DLPsvy435neSdxJ33m9c4hf5UtJUARrq6f2vU3APWDosFW147pHDv2WK4fVWnWcemHK4d4Ene4")
 
 if __name__ == "__main__":
     main()
