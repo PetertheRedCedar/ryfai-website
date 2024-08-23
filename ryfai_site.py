@@ -17,8 +17,6 @@ def main():
         st.markdown("**How to use button**: Takes you to this page!")
         st.markdown("**About button**: Displays information about RYFAI")
         st.markdown("**Donate button**: Click this to donate to me! Simply enter your info that is asked for, and donate as much as you like to the RYFAI project.")
-    if st.button("How to contribute"):
-        st.markdown("Currently not open source but if you are interested in being a part of the developer team, email: ryfai@proton.me")
     st.write("__________________________________________________________________")
     if st.button("Download RYFAI for yourself!"):
         st.markdown("Currently not open source, but email ryfai@proton.me if you are interested in being a part of the developer team")
