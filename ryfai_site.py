@@ -21,6 +21,7 @@ def main():
     if st.button("Download RYFAI for yourself!"):
         st.markdown("https://github.com/PetertheRedCedar/ryfai/releases")
     st.write("_____________________________________________________________")
+    st.markdown("**MAJOR UPDATE: RYFAI 0.1.0!. A new, beautiful GUI presented to you by streamlit, image generation using StableDiffusion, much wider range of supported models! check it out at https://github.com/PetertheRedCedar/ryfai!**
     if st.button("Why RYFAI?"):
         st.markdown("There are major problems in the tech world regarding a user's privacy, especially in AI. Giant corporations love to gather your data\n"
                     "and give it to advertisers to sell you an ad using your personal conversation data, or they use your conversation data to train these\n"
